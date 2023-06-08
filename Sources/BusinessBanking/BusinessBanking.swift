@@ -6,7 +6,11 @@
 //
 
 import Foundation
+import AtlasDesign
+import SwiftTheme
 
-public struct BusinessBanking {
-    
+struct BusinessBanking {
+    private init() {
+        ThemeManager.setTheme(.businessBanking)
+    }
 }
