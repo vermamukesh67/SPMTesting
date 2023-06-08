@@ -6,6 +6,7 @@
 //
 
 import Foundation
-public struct BB {
+
+public struct BusinessBanking {
     
 }
